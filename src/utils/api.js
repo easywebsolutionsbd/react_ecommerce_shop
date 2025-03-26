@@ -1,4 +1,4 @@
-const API_URL = 'https://mern_ecommerce_shop_2025.onrender.com/api';
+const API_URL = ' https://mern-ecommerce-shop-mlbi.onrender.com/api';
 
 // Helper function for making API requests
 const fetchApi = async (endpoint, options = {}) => {
