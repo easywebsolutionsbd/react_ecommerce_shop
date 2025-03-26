@@ -1,0 +1,58 @@
+/* App Container */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main Container */
+.container {
+  flex: 1;
+  padding: 1rem 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Alert Styles */
+.alert {
+  padding: 0.8rem;
+  margin: 1rem 0;
+  opacity: 0.9;
+  background: var(--light-color);
+  color: #333;
+  border-radius: 4px;
+}
+
+.alert-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.alert-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.alert-danger {
+  background: var(--danger-color);
+  color: #fff;
+}
+
+.alert-success {
+  background: var(--success-color);
+  color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .container {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem 0.5rem;
+  }
+} 
